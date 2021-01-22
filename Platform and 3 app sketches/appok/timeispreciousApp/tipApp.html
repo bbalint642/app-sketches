@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TimeisPrecious App</title>
+    
+	<link rel="stylesheet" href="css/main.css">	
+	<link rel='stylesheet' href='https://bootswatch.com/4/yeti/bootstrap.min.css'> 
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	
+</head>
+<body>
+
+    <div class="container" id="item1">
+
+		 <p></p>
+		<div class="clock">
+			<div class="nut"></div>
+			<div class="hour-mark hour-mark-0"></div>
+			<div class="hour-mark hour-mark-1"></div>
+			<div class="hour-mark hour-mark-2"></div>
+			<div class="hour-mark hour-mark-3"></div>
+			<div class="hour-mark hour-mark-4"></div>
+			<div class="hour-mark hour-mark-5"></div>
+			<div class="hour-mark hour-mark-6"></div>
+			<div class="hour-mark hour-mark-7"></div>
+			<div class="hour-mark hour-mark-8"></div>
+			<div class="hour-mark hour-mark-9"></div>
+			<div class="hour-mark hour-mark-10"></div>
+			<div class="hour-mark hour-mark-11"></div>
+			<div class="second-hand"></div>
+			<div class="minute-hand"></div>
+			<div class="hour-hand"></div>
+		</div>
+		
+		<script src="script.js"></script>
+    </div>
+	
+    <div class="container" id="item2">
+        
+		  <div class="container mt-4">
+    <h1 class="display-4 text-center">
+      <i class="fas fa-Input-open text-primary"></i> Time<span class="text-primary">is</span>Precious</h1>
+      <form id="Input-form">
+        <div class="form-group">
+          <label for="activity">Tevékenység</label>
+          <input type="text" id="activity" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="where">Helyszín</label>
+          <input type="text" id="where" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="date">Dátum</label>
+          <input type="text" id="date" class="form-control">
+        </div>
+        <input type="submit" value="Hozzáadás" class="btn btn-primary btn-block">
+      </form>
+      <table class="table table-striped mt-5">
+        <thead>
+          <tr>
+            <th>Tevékenység</th>
+            <th>Helyszín</th>
+            <th>Dátum</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="Input-list"></tbody>
+      </table>
+  </div>
+    <script  src="js/index.js"></script>
+		
+		
+    </div>
+	
+    <div class="1container background" id="item3">
+
+        <div class="weather-box">
+            <div class="row1">
+                <h2 class="weather-location"></h2>
+                <canvas class="weatherType" id="icon1" width="128" height="128"></canvas>
+            </div>
+            <div class="row2">
+                <h1 class="temp"></h1>
+                <span class="temp-type">°C</span>
+            </div>
+            <h2 class="weather-description"></h2>
+            
+        </div>
+    </div>
+    <script src="./assets/js/skycons.js"></script>
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+	
+	
+    </div>
+    </div>
+
+</body>
+</html>
