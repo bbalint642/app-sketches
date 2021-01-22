@@ -1,4 +1,4 @@
-let appId = 'a4c9348f588c307380cd09b30b28c810';
+let appId = ' /* ide: openweathermap token */';
 let units = 'metric';
 let searchMethod;
 
